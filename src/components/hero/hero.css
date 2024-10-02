@@ -1,0 +1,70 @@
+.hero-section {
+    background-color: #e8f0fe; /* Updated background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .hero-section__title {
+    font-size: 2.5rem; /* Adjusted font size */
+    color: #0369a7;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .hero-section__description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .feature-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 800px;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .feature-card__icon {
+    font-size: 2rem;
+    color: #0369a7;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card__title {
+    font-size: 1.3rem;
+    color: #0369a7;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-card__description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .hero-section__button {
+    background-color: #0369a7;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hero-section__button:hover {
+    background-color: #02578a;
+  }
