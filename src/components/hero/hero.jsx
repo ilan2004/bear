@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <h1 className="hero-section__title">
-        Meet KnowBuddy: Your AI Learning Assistant
+        Meet bookiebear: Your AI Learning Assistant
       </h1>
       <p className="hero-section__description">
         Powered by Google's Gemini AI, supporting your learning journey 24/7
